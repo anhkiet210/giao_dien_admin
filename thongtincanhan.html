@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Admin Dashboard</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="../img/logo2.png">
+
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- customise css -->
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/animation.css">
+        <link rel="stylesheet" href="../css/loading.css">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title__page">
+            <div class="title__page-text"><h2>Admin Dashboard</h2></div>
+            <div class="title__page-info" >
+                <div class="avatar">
+                    <img src="../img/1.png" alt="">
+                </div>
+                <div class="name">Phan Anh Kiệt</div>
+            </div>
+        </div>
+        <div class="wraper">
+            <div class="sidebar">
+                <header>
+                    <div class="image__text">
+                        <span class="image">
+                            <img src="../img/logo2.png" alt="logo">
+                        </span>
+                        <div class="text header__text">
+                            <span class="name">PetShop</span>
+                        </div>
+                    </div>
+    
+                    <i class="fas fa-angle-right toggle"></i>
+                </header>
+    
+                <div class="menu-bar">
+                    <div class="menu">
+                        <ul class="menu__links">
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Trang chủ</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Quản lý nhân viên</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Quản lý danh mục</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Quản lý sản phẩm</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Thông tin cá nhân</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Doanh thu</span>
+                                </a>
+                            </li>
+                            <li class="menu__links-item">
+                                <a href="#">
+                                    <i class="fas fa-home icon"></i>
+                                    <span class="text nav-text">Đổi mật khẩu</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="bottom-content">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sign-out icon"></i>
+                                <span class="text nav-text">Logout</span>
+                            </a>
+                        </li>
+                        <li class="mode"> 
+                            <div class="moon-sun">
+                                <i class="fas fa-moon icon moon"></i>
+                                <i class="fas fa-sun icon sun"></i>
+                            </div>
+                            <span class="mode-text text">Dark Mode</span>
+    
+                            <div class="toggle-switch">
+                                <span class="switch"></span>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="container-fluid">
+                    <div class="row clearfix">
+                        <div class="col-12">
+                            <div class="block">
+                                <div class="block__header">
+                                    Đổi mật khẩu
+                                </div>
+                                <div class="block__body">
+                                    <div class="form-group">
+                                        <h3>Họ tên</h3>
+                                        <input type="text" name="" id="" class="form-input" required> 
+                                    </div>
+                                    <div class="form-group">
+                                        <h3>Ảnh đại diện</h3>
+                                        <img src="../img/load.jpg" alt="">
+                                        <label for="imgadd" class="btn btn-info">Hãy chọn ảnh <i class="fas fa-cloud-upload"></i></label>
+                                        <input type="file" name="" id="imgadd" class="form-input-file" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <h3>Email</h3>
+                                        <input type="text" name="" id="" class="form-input" placeholder="Nhập tên sản phẩm" required> 
+                                    </div>
+                                    <div class="form-group">
+                                        <h3>Số điện thoại</h3>
+                                        <input type="text" name="" id="" class="form-input" placeholder="Nhập tên sản phẩm" required> 
+                                    </div>
+                                    <div class="form-group">
+                                        <h3>Chức vụ</h3>
+                                        <input type="text" name="" id="" class="form-input" placeholder="Nhập tên sản phẩm" required> 
+                                    </div>
+                                    <input type="submit" value="Cập nhật" class="block__btn">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="../js/loading.js"></script>
+        <script src="./js/chart.js"></script>
+    </body>
+</html>
